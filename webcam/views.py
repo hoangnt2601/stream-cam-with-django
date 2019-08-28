@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, StreamingHttpResponse
 from django.template import loader
+import cv2
 
 # Create your views here.
 def index(request):
